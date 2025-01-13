@@ -1,0 +1,33 @@
+{
+  "name": "Node.js Development Container",
+  "dockerFile": "Dockerfile",
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest",
+      "nodeGypDependencies": true,
+      "nvmVersion": "latest"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "foxundermoon.shell-format",
+        "Gruntfuggly.todo-tree",
+        "hashicorp.terraform",
+        "ms-vscode.js-debug-nightly",
+        "streetsidesoftware.code-spell-checker",
+        "vscode-icons-team.vscode-icons"
+      ]
+    }
+  },
+
+  "postCreateCommand": ".devcontainer/scripts/postCreate.sh",
+
+  "remoteUser": "root"
+}

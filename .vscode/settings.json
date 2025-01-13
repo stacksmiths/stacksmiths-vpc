@@ -1,0 +1,61 @@
+{
+  "eslint.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "files.associations": {
+    "*.dockerfile": "dockerfile",
+    "docker-compose*.yml": "yaml",
+    "Dockerfile*": "dockerfile",
+    "*.test.js": "javascript",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "*.test.ts": "typescript",
+    "*.test.tsx": "typescriptreact"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "__debug_bin": true,
+    "vendor/": true,
+    "go.sum": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "javascript.format.enable": true,
+  "prettier.requireConfig": true,
+  "remote.extensionKind": {
+    "ms-azuretools.vscode-docker": "workspace",
+    "ms-vscode-remote.remote-containers": "workspace"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.ignoreLimitWarning": true
+}

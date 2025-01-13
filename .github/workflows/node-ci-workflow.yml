@@ -1,0 +1,11 @@
+name: Node CI Workflow
+on:
+  pull_request: {}
+permissions:
+  statuses: write
+  checks: write
+  contents: read
+  pull-requests: read
+jobs:
+  markdown-lint:
+    uses: stacksmiths/actions/.github/workflows/node-ci-workflow.yml@main
